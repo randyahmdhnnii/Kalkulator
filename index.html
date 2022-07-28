@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="kotak">
+        <div class="hasil">
+            <p id="Mnb">Masukan Nilai</p>
+            <h3 id="ksl">0</h3>
+        </div>
+        <div class="tombol">
+            <div class="kanan">
+                <div class="mqw">
+                    <button onclick="hapusall()">Delete All</button>
+                    <button onclick="hapuss()">Delete</button>
+                </div>
+                <div class="mqw">
+                    <button class="cM">9</button>
+                    <button class="cM">8</button>
+                    <button class="cM">7</button>
+                </div>
+                <div class="mqw">
+                    <button class="cM">6</button>
+                    <button class="cM">5</button>
+                    <button class="cM">4</button>
+                </div>
+                <div class="mqw">
+                    <button class="cM">1</button>
+                    <button class="cM">2</button>
+                    <button class="cM">3</button>
+                </div>
+                <div class="mqw">
+                    <button class="cM">0</button>
+                </div>
+
+            </div>
+            <div class="kiri">
+                <button class="aksion" onclick="aksion(':')">:</button>
+                <button class="aksion" onclick="aksion('x')">×</button>
+                <button class="aksion" onclick="aksion('-')">-</button>
+                <button class="aksion" onclick="aksion('+')">+</button>
+                <button class="aksion" onclick="hitung()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
